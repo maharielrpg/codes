@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Special+Gothic&display=swap');
+
+.spotifyalbum1 {
+  height: 930px;
+  width: 455px;
+  background-color: black;
+  color: white;
+  font-family: Noto Sans JP;
+}
+
+.spotifyalbum2 {
+  height: 570px;
+  background: #141615;
+  background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(98, 104, 104, 1) 100%);  color: white;
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.spotifyalbum3 {
+  width: 250px;
+  height: 250px;
+}
+
+.spotifyalbum4 {
+  width: 400px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.spotifyalbum5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.spotifyalbum6 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.spotifyalbum7 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.spotifyalbum8 {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.spotifyalbum9 {
+  font-family: Noto Sans JP;
+  font-size: 12px;
+  color: #979c9f;
+  text-align: left;
+  margin-top: -5px;
+}
+
+.spotifyalbum10 {
+  display: flex;
+  width: 395px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: -30px 20px -30px 20px;
+}
+
+.spotifyalbum11 {
+  height: 40px;
+  width: 25px;
+  outline: 2px solid #8d8d8d;
+  border-radius: 3px;
+  outline-offset: 3px;
+}
+
+.spotifyalbum12 {
+  width: 22px;
+  height: 22px;
+}
+
+.spotifyalbum13 {
+  width: 45px;
+  height: 45px;
+  margin-right: 50px;
+}
+
+.spotifyalbum14 {
+  width: 29px;
+  height: 24px;
+}
+
+.spotifyalbum15 {
+  width: 55px;
+  height: 55px;
+}
+
+.spotifyalbum16 {
+  height: 340px;
+  margin: 0px 30px 30px 30px;
+  overflow: scroll;
+}
+
+.spotifyalbum16::-webkit-scrollbar {
+  display: none;
+}
+
+.spotifyalbum17 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.spotifyalbum18 {
+  font-family: Noto Sans JP;
+  font-size: 15px;
+  width: 300px;
+  text-align: left;
+}
+
+.spotifyalbum19 {
+  font-family: Special Gothic;
+  font-size: 14px;
+  line-height: 150%;
+  color: #979c9f;
+}
