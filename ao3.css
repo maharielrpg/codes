@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');link
+
+:root {
+  --ao3color1: #000000;
+  --ao3color2: #FFFFFF;
+  --ao3color3: #900; 
+  --ao3color4: #ccc; 
+  --ao3color6: #444; 
+  --ao3color7: #bbb; 
+  --ao3color8: #fff;
+  --ao3color9: #aaa;
+  --ao3color10: #ddd;
+  --ao3color11: #eee;
+  --ao3color12: #333;
+  --ao3color13: #FFFFFF;
+} 
+
+body {
+  --ao3color1: #000000; 
+  --ao3color2: #FFFFFF; 
+  --ao3color3: #900; 
+  --ao3color4: #ccc; 
+  --ao3color6: #444; 
+  --ao3color7: #bbb; 
+  --ao3color8: #fff;
+  --ao3color9: #aaa;
+  --ao3color10: #ddd;
+  --ao3color11: #eee;
+  --ao3color12: #333;
+  --ao3color13: #2a2a2a;
+}
+
+body#phpbb.dark-mode {
+  --ao3color1: #333; /*fondo*/
+  --ao3color2: #333; /*texto*/
+  --ao3color3: #5998D6; /*resalto azul*/
+  --ao3color4: #000; /*color gris*/
+  --ao3color6: #blue; /*gris botón*/
+  --ao3color7: #555; /*gris boton2*/
+  --ao3color8: #555;
+  --ao3color9: #222;
+  --ao3color10: #232323;
+  --ao3color11: #555;
+  --ao3color12: #222;
+  --ao3color13: #FFFFFF;
+}
+
+.archive1 {
+  font-family: Open Sans; 
+  width: 800px; 
+  max-height: 1500px; 
+  overflow: scroll;
+  background-color: var(--ao3color2); 
+  border: 1px solid var(--ao3color1);
+  color: var(--ao3color13);
+}
+
+.archive2 {
+  font-family: Helvetica; 
+  font-size: 14px; 
+  color: white; 
+  background: repeat url("https://archiveofourown.org/images/skins/textures/tiles/red-ao3.png"); 
+  padding: 5px 0px 5px 40px; 
+  text-align: left; 
+  word-spacing: 10px; 
+  box-shadow:inset 0 -6px 10px rgba(0, 0, 0, 0.35), 1px 1px 3px -1px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.85);
+}
+
+.archive3 {
+  font-family: Georgia; 
+  font-size: 25px; 
+  text-align: left; 
+  padding: 30px 0px 25px 40px;
+} 
+
+.archive4 {
+  display: inline-block; 
+  color: var(--ao3color13); 
+  background:var(--ao3color4); 
+  border-color: var(--ao3color8); 
+  box-shadow: inset 1px 1px 3px var(--ao3color12); 
+  padding: 0.25em 0.75em; 
+  white-space: nowrap; 
+  overflow: visible; 
+  position: relative; 
+  text-decoration: none; 
+  border: 1px solid var(--ao3color7); 
+  border-bottom: 1px solid var(--ao3color9); 
+  border-radius: 0.25em; 
+  margin-right: 5px;
+} 
+
+.archive5 {
+  display: inline-block; 
+  font-family: Open Sans; 
+  background: var(--ao3color11); 
+  color: var(--ao3color6); 
+  width: auto; 
+  font-size: 100%; 
+  line-height: 1.286; 
+  height: 1.286em; 
+  vertical-align: middle; 
+  padding: 0.25em 0.75em; 
+  white-space: nowrap; 
+  overflow: visible; 
+  position: relative; 
+  text-decoration: none; 
+  border: 1px solid var(--ao3color7); 
+  border-bottom: 1px solid var(--ao3color9); 
+  background-image: linear-gradient(var(--ao3color8) 2%, var(--ao3color10) 95%, var(--ao3color7) 100%); 
+  border-radius: 0.25em; 
+  box-shadow: none; 
+  margin-right: 5px;
+} 
+
+.archive6 {
+  width: 700px; 
+  padding: 10px; 
+  border: 1px solid var(--ao3color10); 
+  margin: 10px 0px 10px 0px;
+} 
+
+.archive7 {
+  height: 70px; 
+  margin: 0px 10px 10px 0px;
+} 
+
+.archive8 {
+  width: 70px; 
+  height: 70px; 
+  margin-right: 10px; 
+  float: left;
+}
+
+.archive9 {
+  font-family: Georgia; 
+  font-size: 16px; 
+  float: left;
+} 
+
+a.archive10 {
+  color: var(--ao3color3); 
+  text-decoration: underline; 
+  font-weight: 400;
+} 
+
+.archive11 {
+  text-decoration: underline dotted;
+  text-decoration-thickness: 1px;
+  text-align: left; 
+  line-height: 115%; 
+  text-underline-offset: 3px;
+  font-style: normal;
+} 
+
+.archive12 {
+  font-family: monospace; 
+  float: right;
+  font-size: 11px;
+}
+
+.archive13 {
+  float: right; 
+  margin-right: 40px;
+} 
+
+.archive14 {
+  text-align: center; 
+  margin: 20px;
+} 
+
+.archive15 {
+  width: 61px;
+  height: 42px;
+  margin: 5px; 
+  float: left;
+}
+
+.archive16 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: left;
+  line-height: 170%;
+  color: var(--ao3color3);
+}
+
+.archive17 {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: justify;
+} 
+
+.archive18 {
+  font-size: 15px; 
+  margin: 20px 0px 5px 10px; 
+  text-align: right;
+}
+
+    .archive1::-webkit-scrollbar {
+      display:none;
+    }
