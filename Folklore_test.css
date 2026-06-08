@@ -1,0 +1,127 @@
+.folklore {
+     background:#F1EEDC;
+     background-image:url(https://64.media.tumblr.com/48414a108cc50bcf0b67193dbe5b4728/fe132796f0872fb5-0f/s640x960/8e2b6eb5441015a346010610b99038acabbd9f4d.jpg);
+     background-size: cover;
+     width:450px;
+     height:auto;
+     margin:0 auto;
+     position: relative;
+}
+ .folk-p {
+     background: rgba(0,0,0,0.5);
+     padding: 10px 10px 20px;
+}
+ .folk-t {
+     color: var(--accent);
+     font: italic 25px 'IM Fell DW Pica';
+     text-align: center;
+     letter-spacing: 2px;
+     width: 70%;
+     margin: 50px auto 25px;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+ .folk-c {
+     backdrop-filter: blur(5px);
+     background: #ffffff0a;
+     color: #ccc;
+     font: 13px Karla;
+     outline:1px solid var(--accentb);
+     outline-offset: 10px;
+     padding: 2em;
+     text-align: justify;
+     width: 80%;
+     margin: 2em auto;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+ .folk-c strong, .folk-c b {
+     color: var(--accent);
+}
+ .folk-c i {
+     font-family: 'IM Fell DW Pica';
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+ .folk-f {
+     margin: 0 auto;
+     width: 84%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .folk-f img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 5px solid var(--accentb);
+     outline: 1px solid var(--accent);
+     outline-offset: -10px;
+     z-index: 1;
+}
+ .folk-f h6 {
+     width: 100%;
+     backdrop-filter: blur(5px);
+     background: #ffffff1a;
+     padding: 5px 8px;
+     margin-left: -10px;
+     color: #ffffff;
+     font: 13px 'IM Fell DW Pica';
+     text-align: right;
+     text-transform: lowercase;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+ @font-face {
+    font-family: 'Irish';
+     src: url("https://files.jcink.net/uploads/mischief/Irish.ttf");
+}
+ .folklore:before {
+     content: 'E';
+     font: 16px 'Irish';
+     color: var(--accent);
+     position: absolute;
+     right: 5px;
+     bottom: 5px;
+     opacity: 0.4;
+     cursor: pointer;
+     -webkit-transition: .8s ease-in-out 1s;
+     -moz-transition: .8s ease-in-out 1s;
+     -ms-transition: .8s ease-in-out 1s;
+     -o-transition: .8s ease-in-out 1s;
+     transition: .8s ease-in-out 1s;
+}
+ .folklore:hover:before {
+     opacity: 0;
+     -webkit-transition: .8s ease-in-out .8s;
+     -moz-transition: .8s ease-in-out .8s;
+     -ms-transition: .8s ease-in-out .8s;
+     -o-transition: .8s ease-in-out .8s;
+     transition: .8s ease-in-out .8s;
+}
+ .folklore:after {
+     content: 'the code coven';
+     font-family: karla;
+     font-size: 9px;
+     text-transform: uppercase;
+     color: var(--accent);
+     position: absolute;
+     right: 5px;
+     bottom: 8px;
+     opacity: 0;
+     cursor: pointer;
+     -webkit-transition: .8s ease-in-out 1s;
+     -moz-transition: .8s ease-in-out 1s;
+     -ms-transition: .8s ease-in-out 1s;
+     -o-transition: .8s ease-in-out 1s;
+     transition: .8s ease-in-out 1s;
+}
+ .folklore:hover:after {
+     opacity: 0.4;
+     -webkit-transition: .8s ease-in-out .8s;
+     -moz-transition: .8s ease-in-out .8s;
+     -ms-transition: .8s ease-in-out .8s;
+     -o-transition: .8s ease-in-out .8s;
+     transition: .8s ease-in-out .8s;
+}
